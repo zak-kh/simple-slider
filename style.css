@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+}
+.slider__container {
+	background-color: #202020;
+	display: flex;
+	margin-top: 28vh;
+	padding: 1rem;
+	border-radius: 1rem;
+	width: 35rem;
+	justify-content: center;
+}
+
+.slider__container img {
+	overflow: hidden;
+	width: 30rem;
+}
+
+button {
+	border-radius: 0.5rem 0 0 0.5rem;
+	background-color: gray;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.next {
+	border-radius: 0 0.5rem 0.5rem 0;
+}

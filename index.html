@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>slider</title>
+	</head>
+	<body>
+		<div class="slider__container">
+			<button onclick="pervItem()">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-chevrons-left"
+					width="34"
+					height="34"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					<path d="M11 7l-5 5l5 5"></path>
+					<path d="M17 7l-5 5l5 5"></path>
+				</svg>
+			</button>
+			<img
+				src="./images/1.jpeg"
+				alt="car"
+				class="slider__item"
+				id="slider-item"
+			/>
+			<button class="next" onclick="nextItem()">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-chevrons-right"
+					width="34"
+					height="34"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					<path d="M7 7l5 5l-5 5"></path>
+					<path d="M13 7l5 5l-5 5"></path>
+				</svg>
+			</button>
+		</div>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
